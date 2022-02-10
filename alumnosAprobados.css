@@ -1,0 +1,32 @@
+#mostrarAlumnos, #mostrarAprobados, #eliminar{
+    height: 50px;
+    margin-right: 40px;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+}
+
+#mostrarAlumnos:active, #mostrarAprobados:active, #eliminar:active {
+    background-color: white;
+    color: black;
+}
+
+#mostrarAlumnos:hover, #mostrarAprobados:hover, #eliminar:hover{
+    cursor: pointer;
+}
+
+#contenedorAlumnos{
+    width: 1300px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+
+#contenedorAprobados{
+    width: 1300px;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    display: flex;
+}

@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 225px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.cuadrado:hover{
+    cursor: pointer;
+}
+
+.cuadrado:active{
+    box-shadow: 0px 0px 5px black;
+    border: none;
+}
+.cuadrado:first-child{
+    background-color: red;
+}
+.cuadrado:nth-child(2){
+    background-color: blue;
+}
+.cuadrado:nth-child(3){
+    background-color: green;
+}
